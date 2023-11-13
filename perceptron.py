@@ -70,7 +70,7 @@ if __name__ == '__main__':
 
     # Example 1 : OR logical function
     # -------------------------------------------------------------------------
-    print "Learning the OR logical function"
+    print ("Learning the OR logical function")
     network.reset()
     samples[0] = (0,0), 0
     samples[1] = (1,0), 1
@@ -80,7 +80,7 @@ if __name__ == '__main__':
 
     # Example 2 : AND logical function
     # -------------------------------------------------------------------------
-    print "Learning the AND logical function"
+    print ("Learning the AND logical function")
     network.reset()
     samples[0] = (0,0), 0
     samples[1] = (1,0), 0
@@ -90,7 +90,7 @@ if __name__ == '__main__':
 
     # Example 3 : XOR logical function
     # -------------------------------------------------------------------------
-    print "Failed at learning the XOR logical function"
+    print ("Failed at learning the XOR logical function")
     network.reset()
     samples[0] = (0,0), 0
     samples[1] = (1,0), 1
