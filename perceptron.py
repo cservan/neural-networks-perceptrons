@@ -60,9 +60,8 @@ if __name__ == '__main__':
         # Test
         for i in range(samples.size):
             o = network.propagate_forward( samples['input'][i] )
-            print i, samples['input'][i], '%.2f' % o[0],
-            print '(expected %.2f)' % samples['output'][i]
-        print
+            print (i, samples['input'][i], '%.2f' % o[0], '(expected %.2f)' % samples['output'][i])
+
         
 
     network = Perceptron(2,1)
